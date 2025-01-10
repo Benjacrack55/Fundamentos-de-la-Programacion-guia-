@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int factorial;
+    int factorial = 1;
     int n;
     printf("n: ");
     scanf("%d", &n);
-    factorial = 1;
 
     if (n < 0 ) {
         printf("no se puede calcular el factorial del número ingresado \n");
