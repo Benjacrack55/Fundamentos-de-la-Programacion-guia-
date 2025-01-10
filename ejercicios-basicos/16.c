@@ -21,6 +21,7 @@ int main(){
         } else if (n % 10 < menor) {
             menor = n % 10;
         }
+        n /= 10;
     }
 
     printf("Cantidad de pares: %d, cantidad de impares: %d, mayor numero: %d, menor numero: %d \n", pares, impares, mayor, menor);
