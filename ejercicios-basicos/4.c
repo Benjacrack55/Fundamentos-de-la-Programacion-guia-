@@ -5,7 +5,7 @@ int main(){
     printf("Numero: ");
     scanf("%d", &n);
 
-    printf("%d \n", ( n * (n+1) ) / 2);
+    printf("Suma: %d \n", ( n * (n+1) ) / 2);
     
     return 0;
 }
